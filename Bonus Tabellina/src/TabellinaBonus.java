@@ -7,12 +7,23 @@ public class TabellinaBonus {
     public TabellinaBonus (int number){
         this.number =  number;
     }
-
-    public void stampa(){
-         for(int i= 1; i<= 10; i++){
-            int total = (number * i);
-            System.out.println(total);
+     int contatore = 1;
+    public void print(){
+         if(contatore != (10+1)){
+             int total = (number * contatore);
+             System.out.println(total);
+             contatore += 1;
+              print();   
+         }else{
+            System.out.println("Non provare la tabellina del due");
+            return;
+      }
+      if(number == 2){
+        int index = 0;
+         while(true){
+         System.out.println("Errore");
          }
     }
     }
+}
 
