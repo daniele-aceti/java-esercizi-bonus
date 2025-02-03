@@ -6,24 +6,27 @@ public class TabellinaBonus {
 
     public TabellinaBonus (int number){
         this.number =  number;
+        System.out.println("Non provare la tabellina del 2 e del 3 le tabelline si specchiano");
+
     }
+
      int contatore = 1;
+     int count = 10;
     public void print(){
-         if(contatore != (10+1)){
+         if(contatore != (11)){
              int total = (number * contatore);
              System.out.println(total);
-             contatore += 1;
+             contatore++;
               print();   
-         }else{
-            System.out.println("Non provare la tabellina del due");
-            return;
-      }
-      if(number == 2){
-        int index = 0;
-         while(true){
-         System.out.println("Errore");
+         }else if(number == 3 || number == 2){
+            if(count != 0){
+                int result = (number * count);
+                System.out.println(result);
+                count--;
+                print();
+            }
+} 
          }
     }
-    }
-}
+
 
