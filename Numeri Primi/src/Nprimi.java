@@ -2,19 +2,6 @@
 
 
 public class Nprimi {
-/*public void main() {
-        for( int i = 0; i <= 421; i++){
-            if(i >= 2){
-                if((i %2 == 0 && i != 2) || (i %3 == 0 && i != 3) || (i% 5 == 0 && i != 5) ||(i%7 == 0 &&  i != 7)){
-                    //non fare nulla sono quelli non primi
-                }else{  
-                    System.out.println("Numero primo " + i );
-                }
-            }
-            
-        }                     
-}*/
-
 int contatore = 0;
 public void main(){
     for(int index = 0; index <= 421; index++){
