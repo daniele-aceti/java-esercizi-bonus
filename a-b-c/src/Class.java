@@ -2,7 +2,7 @@ public class Class{
     int contatore = 0;
 
 
-    public void a(){
+     void a(){
          if(contatore == 10){
             System.out.println(contatore);
             return;
@@ -12,10 +12,10 @@ public class Class{
         b();
     }
 }
-    public void b(){
+     void b(){
         c();
     }
-    public void c(){
+     void c(){
         a();
     }
     
