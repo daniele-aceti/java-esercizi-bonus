@@ -13,7 +13,7 @@ public class TabellinaBonus {
      int contatore = 1;
      int count = 10;
     public void print(){
-         if(contatore != (11)){
+         if(contatore != 11){
              int total = (number * contatore);
              System.out.println(total);
              contatore++;
